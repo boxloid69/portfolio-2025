@@ -1,0 +1,65 @@
+
+body {
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+form {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: 1px solid white;
+}
+
+
+.btn-primary {
+    background: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+
+.footer {
+    background: linear-gradient(to top, #000000, #293c58);
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+.social-link {
+    color: #f8f9fa;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+.navbar {
+    background: linear-gradient(to bottom, #000000, #293c58);
+    border-bottom: 2px solid #333;
+}
